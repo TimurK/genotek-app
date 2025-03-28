@@ -1,6 +1,6 @@
 services:
   genotek-app:
-    image: genotek-app:latest
+    image: cr.yandex/crp2sick5lj5uau8d2j5/genotek-app:latest
     build:
       context: .
       dockerfile: Dockerfile
